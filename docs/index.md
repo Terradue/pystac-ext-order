@@ -16,6 +16,12 @@ limitations under the License.
 
 # Order PySTAC extension
 
+!!! info "Supported Python versions"
+
+    Python 3.10 support has been dropped because it reached
+    [end of life on October 1, 2026](https://peps.python.org/pep-0619/).
+    This package supports **Python 3.11–3.15**. Please upgrade to a supported version.
+
 Read and write STAC Order v1.1.0 metadata with `pystac-ext-order`.
 The extension supports Items, Collections, Assets, item asset definitions, and Collection status summaries.
 
